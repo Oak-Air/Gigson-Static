@@ -26,6 +26,34 @@
 	<meta property="og:image:width" content="382">
 	<meta property="og:image:height" content="382">
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <!-- Start of Async Drift Code -->
+<script>
+"use strict";
+
+!function() {
+  var t = window.driftt = window.drift = window.driftt || [];
+  if (!t.init) {
+    if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+    t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+    t.factory = function(e) {
+      return function() {
+        var n = Array.prototype.slice.call(arguments);
+        return n.unshift(e), t.push(n), t;
+      };
+    }, t.methods.forEach(function(e) {
+      t[e] = t.factory(e);
+    }), t.load = function(t) {
+      var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+      o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+      var i = document.getElementsByTagName("script")[0];
+      i.parentNode.insertBefore(o, i);
+    };
+  }
+}();
+drift.SNIPPET_VERSION = '0.3.1';
+drift.load('34wdutd7pt7c');
+</script>
+<!-- End of Async Drift Code -->
 	</head>
 	<body>
 		<div class="headerContainer">
@@ -55,7 +83,7 @@
       <div class="aboutGigson">
         <div class="holder">
         <h2>Gigson is designed to match and hire top performing talent that are 100% driven to help your business grow.</h2>
-    <a href="https://gigson.typeform.com/to/I1Pw5Y" class="hireADeveloperButton filled">
+    <a href="https://gigson.typeform.com/to/I1Pw5Y" class="hireADeveloperButton filled big">
         Start hiring</a></div>
         
         </div>
@@ -107,7 +135,7 @@
         <div class="missionPicture"><img src='img/missionPicture.jpg' alt="random picture, TLDR;"/> </div>
         <div class="textContent">
           <h3> Our mission is to help Tech Businesses Succeed.</h3>
-         <p>Our work is dedicated to providing new ways to improve technical support, talent hiring and management processes in a way that gives any company the right talent to change the world. </p>
+         <p>Our approach improves technical support, talent hiring and management processes to improve work productivity for Startups and Enterprise.  </p>
         </div>
       </div>
 

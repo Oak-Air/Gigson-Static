@@ -106,7 +106,10 @@ a.hireADeveloperButton {
   border-radius: 6px;
   display: inline-block;
   text-align: center; }
-
+a.hireADeveloperButton.filled.big{
+  padding: 1.5em 2em;
+  font-size: 16px;
+}
 a.hireADeveloperButton.filled {
   color: white;
   background: #26B2FE;
