@@ -62,10 +62,12 @@ p {
   position: sticky;
   position: -webkit-sticky;
   top: 0px;
+  z-index: 1;
   transition: all .4s ease-out;
 }
 .headerContainer.scrolled{
  box-shadow: 0px 4px 64px rgba(198, 198, 198, 0.20);
+ z-index: 1;
 }
 .header {
   position: sticky;
@@ -127,6 +129,12 @@ a.hireADeveloperButton.filled {
    .heroContent .heroContentChild {
       display: inline-block;
       max-width: 413px; }
+      .childHolder{
+        display:  flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: left; 
+      }
 
 .aboutGigson {
   margin: 0 auto;
@@ -191,7 +199,8 @@ a.hireADeveloperButton.filled {
     max-width: 540px; }
     .ourMission .textContent h3 {
       line-height: 130%; 
-      margin: 0;}
+      margin: 0;
+      margin-top: 15px;}
     .ourMission .textContent p {
       line-height: 190%;
       font-weight: 300; }
