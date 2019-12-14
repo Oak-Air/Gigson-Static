@@ -84,6 +84,7 @@ p {
   -ms-flex-pack: justify;
   justify-content: space-between;
   max-width: 1170px;
+  flex-wrap: wrap;
   margin: 0 auto;
   padding: 20px 10px;
   background-color: white; 
@@ -97,16 +98,23 @@ z-index: 999;}
   max-width: 1170px;
   margin: 0 auto;
   padding: 0 10px; }
-
+.navItems{
+  display: flex;
+  align-items: center;
+}
 a.hireADeveloperButton {
-  color: #001833;
+  color: #26B2FE;
   font-size: 14px;
   text-decoration: none;
-  padding: 15px 20px;
-  border: 1px solid #26B2FE;
+  
   border-radius: 6px;
   display: inline-block;
-  text-align: center; }
+  text-align: left;
+  transition: color 200ms ease-in-out;
+  }
+  a.hireADeveloperButton:hover{
+    color:  #001833;
+  }
 a.hireADeveloperButton.filled.big{
   padding: 1.5em 2em;
   font-size: 16px;
@@ -115,8 +123,34 @@ a.hireADeveloperButton.filled {
   color: white;
   background: #26B2FE;
   font-size: 14px;
+  padding: 15px 20px;
   font-weight: 400; }
-
+a.noBorder{
+  padding: 15px 20px 15px 0px;
+  border-color: transparent;
+  color:  #001833;
+  display: flex;
+  align-items: center;
+  margin-right: 25px;
+  
+}
+a.noBorder:hover{
+  color: #F57171;
+}
+a.noBorder:before{
+  content: url('../img/flag.svg');
+  margin-right: 10px;
+}
+a.seeReport{
+  display: inline-block;
+  margin-top: 20px;
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  padding: 1em 3em;
+  background: #0077FF;
+  border-radius: 3px;
+}
 .testifierName {
   font-family: 'circular-bold', sans-serif;
   font-weight: normal; }
@@ -345,7 +379,34 @@ a.hireADeveloperButton.filled {
     max-height: 50px; }
   .clientSection a {
     margin-top: 30px; }
+.sojSection{
+  background: #101D42 url(../img/grid.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5% 10%;
+  align-items: center;
+}
+.sojContent{
+  max-width: 450px;
+}
+.sojContent h2{
+  color: #FFCF00;
+}
+.sojContent p{
+  color: rgba(255,255,255,0.8);
+  font-family: 'circular-book';
+  font-weight: normal;
+}
+.laptopBoy{
+  max-width: 50%
+  min-width: 270px;
+}
+.laptopBoy img{
+  width: 100%;
 
+}
 .subFooter {
   background: #26B2FE;
   color: white; }

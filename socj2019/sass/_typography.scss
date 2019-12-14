@@ -1,0 +1,106 @@
+@font-face {
+  font-family: "Graphik";
+  font-weight: 100;
+  src: url('../assets/fonts/Graphik-Extralight.otf') format("opentype");
+}
+
+@font-face {
+  font-family: "Graphik";
+  font-weight: 200;
+  src: url('../assets/fonts/Graphik-Light.otf') format("opentype");
+}
+
+@font-face {
+  font-family: "Graphik";
+  font-weight: 300;
+  src: url('../assets/fonts/Graphik-Thin.otf') format("opentype");
+}
+
+@font-face {
+  font-family: "Graphik";
+  src: url('../assets/fonts/Graphik-Regular.otf') format("opentype");
+}
+
+@font-face {
+  font-family: "Graphik";
+  font-weight: 500;
+  src: url('../assets/fonts/Graphik-Medium.otf') format("opentype");
+}
+
+@font-face {
+  font-family: "Graphik";
+  font-weight: 700;
+  src: url('../assets/fonts/Graphik-Semibold.otf') format("opentype");
+}
+
+@font-face {
+  font-family: "Graphik";
+  font-weight: 900;
+  src: url('../assets/fonts/Graphik-Bold.otf') format("opentype");
+}
+
+// colors
+$dark-blue: #0050AF;
+$blue: #0077FF;
+$light-blue: #92D3FD;
+$dark-red: #C91717;
+$red: #E33A3A;
+$light-red: #F57171;
+$dark-purple: #4E52D2;
+$purple: #6065FF;
+$light-purple: #999CFF;
+$dark-yellow: #EEBB00;
+$yellow: #FFC800;
+$light-yellow: #FFE19C;
+$dark-green: #0B945A;
+$green: #0DD480;
+$light-green: #5CF5B4;
+$grey-100: #192832;
+$grey-200: #5A646A;
+$grey-300: #ACB5BB;
+$grey-400: #CED4D9;
+$grey-500: #E1E6EB;
+$grey-600: #F9FBFC;
+$pastel-blue: #EFF9FF;
+$pastel-green: #DEFFF1;
+$pastel-red: #FFCECE;
+$pastel-yellow: #FFF7E3;
+$pastel-grey: #F9FBFC;
+$smoke-100: #F2F2F2;
+$santas: #969FA2;
+$link-water: #C0CCDB;
+$casper: #ACB5BB;
+$base: #E9E9E9;
+$white: #FFFFFF;
+
+.pastel-red {
+  color: $pastel-red;
+}
+
+.light-green {
+  color: $light-green;
+}
+
+.light-purple {
+  color: $light-purple;
+}
+
+.light-yellow {
+  color: $light-yellow;
+}
+
+.light-blue {
+  color: $light-blue;
+}
+
+.orange {
+  color: #FF8A00;
+}
+
+.highlight {
+  font-weight: bold;
+
+  &--blue {
+    color: #92d3fd;
+  }
+}
